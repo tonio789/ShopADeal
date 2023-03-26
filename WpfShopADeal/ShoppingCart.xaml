@@ -1,0 +1,186 @@
+﻿<Window x:Class="WpfShopADeal.ShoppingCart"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfShopADeal"
+        mc:Ignorable="d"
+        Title="ShoppingCart" Height="450" Width="800">
+    <Window.Resources>
+        <Style x:Key="LetrStyle" TargetType="{x:Type Label}">
+            <Setter Property="Foreground" Value="{DynamicResource {x:Static SystemColors.ControlTextBrushKey}}"/>
+            <Setter Property="Background" Value="Transparent"/>
+            <Setter Property="Padding" Value="5"/>
+            <Setter Property="HorizontalContentAlignment" Value="Left"/>
+            <Setter Property="VerticalContentAlignment" Value="Top"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type Label}">
+                        <Border Background="{TemplateBinding Background}" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" SnapsToDevicePixels="true" Margin="0,0,0,0">
+                            <ContentPresenter HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" RecognizesAccessKey="True" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}" VerticalAlignment="{TemplateBinding VerticalContentAlignment}"/>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsEnabled" Value="false">
+                                <Setter Property="Foreground" Value="{DynamicResource {x:Static SystemColors.GrayTextBrushKey}}"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+        <SolidColorBrush x:Key="Button.Static.Background" Color="#FFDDDDDD"/>
+        <SolidColorBrush x:Key="Button.Static.Border" Color="#FF707070"/>
+        <SolidColorBrush x:Key="Button.MouseOver.Background" Color="#FFBEE6FD"/>
+        <SolidColorBrush x:Key="Button.MouseOver.Border" Color="#FF3C7FB1"/>
+        <SolidColorBrush x:Key="Button.Pressed.Background" Color="#FFC4E5F6"/>
+        <SolidColorBrush x:Key="Button.Pressed.Border" Color="#FF2C628B"/>
+        <SolidColorBrush x:Key="Button.Disabled.Background" Color="#FFF4F4F4"/>
+        <SolidColorBrush x:Key="Button.Disabled.Border" Color="#FFADB2B5"/>
+        <SolidColorBrush x:Key="Button.Disabled.Foreground" Color="#FF838383"/>
+
+        <Style x:Key="FocusVisual">
+            <Setter Property="Control.Template">
+                <Setter.Value>
+                    <ControlTemplate>
+                        <Rectangle Margin="2" StrokeDashArray="1 2" Stroke="{DynamicResource {x:Static SystemColors.ControlTextBrushKey}}" SnapsToDevicePixels="true" StrokeThickness="1"/>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+        <Style x:Key="AgDelEdStyle" TargetType="{x:Type Button}">
+            <Setter Property="FocusVisualStyle" Value="{StaticResource FocusVisual}"/>
+            <Setter Property="Background" Value="{StaticResource Button.Static.Background}"/>
+            <Setter Property="BorderBrush" Value="{StaticResource Button.Static.Border}"/>
+            <Setter Property="Foreground" Value="{DynamicResource {x:Static SystemColors.ControlTextBrushKey}}"/>
+            <Setter Property="BorderThickness" Value="1"/>
+            <Setter Property="HorizontalContentAlignment" Value="Center"/>
+            <Setter Property="VerticalContentAlignment" Value="Center"/>
+            <Setter Property="Padding" Value="1"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type Button}">
+                        <Border x:Name="border" CornerRadius="3" Background="{TemplateBinding Background}" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" SnapsToDevicePixels="true">
+                            <ContentPresenter x:Name="contentPresenter" Focusable="False" HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" Margin="{TemplateBinding Padding}" RecognizesAccessKey="True" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}" VerticalAlignment="{TemplateBinding VerticalContentAlignment}"/>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsDefaulted" Value="true">
+                                <Setter Property="BorderBrush" TargetName="border" Value="{DynamicResource {x:Static SystemColors.HighlightBrushKey}}"/>
+                            </Trigger>
+                            <Trigger Property="IsMouseOver" Value="true">
+                                <Setter Property="Background" TargetName="border" Value="{StaticResource Button.MouseOver.Background}"/>
+                                <Setter Property="BorderBrush" TargetName="border" Value="{StaticResource Button.MouseOver.Border}"/>
+                            </Trigger>
+                            <Trigger Property="IsPressed" Value="true">
+                                <Setter Property="Background" TargetName="border" Value="{StaticResource Button.Pressed.Background}"/>
+                                <Setter Property="BorderBrush" TargetName="border" Value="{StaticResource Button.Pressed.Border}"/>
+                            </Trigger>
+                            <Trigger Property="IsEnabled" Value="false">
+                                <Setter Property="Background" TargetName="border" Value="{StaticResource Button.Disabled.Background}"/>
+                                <Setter Property="BorderBrush" TargetName="border" Value="{StaticResource Button.Disabled.Border}"/>
+                                <Setter Property="TextElement.Foreground" TargetName="contentPresenter" Value="{StaticResource Button.Disabled.Foreground}"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </Window.Resources>
+    <Grid>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="45"></RowDefinition>
+                <RowDefinition></RowDefinition>
+            </Grid.RowDefinitions>
+            <Border Grid.Row="0" Background="White"/>
+            <Border Background="#FF5271FF" Margin="0,42,0,3" Grid.RowSpan="2" />
+            <Image Grid.Row="0" x:Name="Logo" HorizontalAlignment="Left" VerticalAlignment="Center"  Height="14"  Width="93" Source="/WhatsApp Image 2022-10-14 at 8.14.27 PM (1).jpeg" Margin="10,0,0,0"/>
+            <Button x:Name="btn_inicio" Content="INICIO" HorizontalAlignment="Left" VerticalAlignment="Center" BorderBrush="{x:Null}" Background="{x:Null}" FontFamily="Quicksand" Height="18" Width="70" FontSize="9" Foreground="#FF5271FF" FontWeight="Bold" Margin="140,0,0,0" Click="btn_inicio_Click"/>
+            <Button x:Name="btn_tiendas" Content="MIS TIENDAS" HorizontalAlignment="Left" VerticalAlignment="Center" BorderBrush="{x:Null}" Background="{x:Null}" FontFamily="Quicksand" Height="18" Width="70" FontSize="9" Foreground="#FF5271FF" FontWeight="Bold" Margin="210,0,0,0" Click="btn_tiendas_Click"/>
+            <Button x:Name="btn_compras" Content="MIS COMPRAS" HorizontalAlignment="Left" VerticalAlignment="Center" BorderBrush="{x:Null}" Background="{x:Null}" FontFamily="Quicksand" Height="18" Width="70" FontSize="9" Foreground="#FF5271FF" FontWeight="Bold" Margin="280,0,0,0" Click="btn_compras_Click"/>
+            <Button x:Name="btn_categorias" Content="CATEGORIAS" HorizontalAlignment="Left" VerticalAlignment="Center" BorderBrush="{x:Null}" Background="{x:Null}" FontFamily="Quicksand" Height="18" Width="70" FontSize="9" Foreground="#FF5271FF" FontWeight="Bold" Margin="350,0,0,0" Click="btn_categorias_Click"/>
+            <Button Grid.Row="0" x:Name="btn_user" Content="BIENVENIDO" HorizontalAlignment="Right" Height="45" VerticalAlignment="Center" Width="132" Background="White" Foreground="#FF5271FF" BorderBrush="#FFD8D8D8" FontFamily="Quicksand Light" BorderThickness="0.5"/>
+            <Grid Grid.Row="1" ShowGridLines="True">
+
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition></ColumnDefinition>
+                    <ColumnDefinition Width="500"></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                    <ColumnDefinition Width="200"></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="25"></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition Height="25"></RowDefinition>
+                </Grid.RowDefinitions>
+
+                <DataGrid Grid.Row="1" Grid.Column="1" Name="DG" FontFamily="Quicksand" AutoGenerateColumns="False" IsReadOnly="True">
+                    <DataGrid.Columns>
+
+                        <DataGridTemplateColumn Width="80">
+                            <DataGridTemplateColumn.CellTemplate>
+                                <DataTemplate>
+                                    <StackPanel>
+                                        <Button x:Name="btn_articulo" HorizontalAlignment="Center" VerticalAlignment="Center" FontFamily="Quicksand">
+                                            <Image HorizontalAlignment="Right" Height="60" VerticalAlignment="Center" Width="60" Source="/shopping-bag.png" RenderTransformOrigin="0.565,0.479"/>
+                                        </Button>
+                                    </StackPanel>
+                                </DataTemplate>
+                            </DataGridTemplateColumn.CellTemplate>
+                        </DataGridTemplateColumn>
+
+                        <DataGridTextColumn Width="180"  Binding="{Binding nombre}"></DataGridTextColumn>
+                        <DataGridTextColumn Width="100"   Binding="{Binding precio}"></DataGridTextColumn>
+
+                        <DataGridTemplateColumn  Width="30">
+                            <DataGridTemplateColumn.CellTemplate>
+                                <DataTemplate>
+                                    <StackPanel>
+                                        <Button CommandParameter="{Binding idArticulo}" x:Name="btn_eliminar" Content="x" HorizontalAlignment="Right" VerticalAlignment="Bottom" Width="16" FontFamily="Quicksand" Height="15" HorizontalContentAlignment="Center" VerticalContentAlignment="Top" FontSize="8" Background="#FFCC312A" BorderBrush="{x:Null}" Foreground="White" Margin="0,0,5,5" Click="btn_eliminar_Click"/>
+                                    </StackPanel>
+                                </DataTemplate>
+                            </DataGridTemplateColumn.CellTemplate>
+                        </DataGridTemplateColumn>
+                        
+                        <DataGridTemplateColumn  Width="30">
+                            <DataGridTemplateColumn.CellTemplate>
+                                <DataTemplate>
+                                    <StackPanel>
+                                        <Button CommandParameter="{Binding idArticulo}" Click="btn_disminuir_Click"  x:Name="btn_disminuir" Content="-" HorizontalAlignment="Center" VerticalAlignment="Center" Width="15" FontFamily="Quicksand" Height="15" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="8" Background="#FFF5C418" BorderBrush="{x:Null}" Foreground="White"/>
+                                    </StackPanel>
+                                </DataTemplate>
+                            </DataGridTemplateColumn.CellTemplate>
+                        </DataGridTemplateColumn>
+
+
+                        <DataGridTextColumn Width="40"  Binding="{Binding cantidad}"></DataGridTextColumn>
+
+                        <DataGridTemplateColumn  Width="30">
+                            <DataGridTemplateColumn.CellTemplate>
+                                <DataTemplate>
+                                    <StackPanel>
+                                        <Button CommandParameter="{Binding idArticulo}"  x:Name="btn_aumentar" Content="+" HorizontalAlignment="Right" VerticalAlignment="Bottom" Width="16" FontFamily="Quicksand" Height="15" HorizontalContentAlignment="Center" VerticalContentAlignment="Top" FontSize="8" Background="#FF42C844" BorderBrush="{x:Null}" Foreground="White" Margin="0,0,5,5" Click="btn_aumentar_Click"/>
+                                    </StackPanel>
+                                </DataTemplate>
+                            </DataGridTemplateColumn.CellTemplate>
+                        </DataGridTemplateColumn>
+                        
+
+                    </DataGrid.Columns>
+                </DataGrid>
+
+                <Rectangle Grid.Row="1" Grid.Column="3" HorizontalAlignment="Center" Height="200" VerticalAlignment="Top" Width="200" Fill="White"/>
+
+
+                <Label Grid.Row="1" Grid.Column="3" Style="{DynamicResource LetrStyle}" Content="TOTAL" HorizontalAlignment="Center" VerticalAlignment="Top" FontFamily="Quicksand Medium" Width="38" Background="{x:Null}" Foreground="#FF5271FF" Margin="0,22,0,0"/>
+                <Label Grid.Row="1" Grid.Column="3" x:Name="lb_cantidadArticulos" Style="{DynamicResource LetrStyle}" Content="PrecioTotal" HorizontalAlignment="Left" VerticalAlignment="Top" FontFamily="Quicksand Medium" Width="63" Background="{x:Null}" Foreground="#FF5271FF" Margin="25,75,0,0"/>
+                <Rectangle Grid.Row="1" Grid.Column="3" HorizontalAlignment="Right" Height="28" VerticalAlignment="Top" Width="66" Fill="#FF5271FF" RadiusX="10" RadiusY="10" Margin="0,68,27,0"/>
+                <Label Grid.Row="1" Grid.Column="3" x:Name="lb_total" Style="{DynamicResource LetrStyle}" Content="0" HorizontalAlignment="Right" VerticalAlignment="Top" FontFamily="Quicksand Medium" Width="63" Background="{x:Null}" Foreground="White" Margin="0,75,28,0" HorizontalContentAlignment="Center"/>
+                <Button Grid.Row="1" Grid.Column="3" x:Name="btn_pagar" Content="PAGAR" HorizontalAlignment="Center" VerticalAlignment="Top" BorderBrush="{x:Null}" Background="#FF5271FF" FontFamily="Quicksand" Height="28" Width="70" FontSize="8" Foreground="White" Margin="0,130,0,0" Click="btn_pagar_Click"/>
+                <Button Grid.Row="1" Grid.Column="3" x:Name="btn_seguirComprando" Content="SEGUIR COMPRANDO" HorizontalAlignment="Center" VerticalAlignment="Top" BorderBrush="{x:Null}" Background="#FF5271FF" FontFamily="Quicksand" Height="16" Width="100" FontSize="8" Foreground="White" Margin="0,170,0,0" Click="btn_seguirComprando_Click"/>
+            </Grid >
+        </Grid>
+    </Grid>
+</Window>

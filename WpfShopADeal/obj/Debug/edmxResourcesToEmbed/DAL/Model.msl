@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="dbshopadealModelStoreContainer" CdmEntityContainer="dbshopadealEntities">
+    <EntitySetMapping Name="administra">
+      <EntityTypeMapping TypeName="dbshopadealModel.administra">
+        <MappingFragment StoreEntitySet="administra">
+          <ScalarProperty Name="usuario_cedula" ColumnName="usuario_cedula" />
+          <ScalarProperty Name="tienda_codigo" ColumnName="tienda_codigo" />
+          <ScalarProperty Name="fecha" ColumnName="fecha" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="articulo">
+      <EntityTypeMapping TypeName="dbshopadealModel.articulo">
+        <MappingFragment StoreEntitySet="articulo">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="codigobarras" ColumnName="codigobarras" />
+          <ScalarProperty Name="nombre" ColumnName="nombre" />
+          <ScalarProperty Name="precio" ColumnName="precio" />
+          <ScalarProperty Name="descripcion" ColumnName="descripcion" />
+          <ScalarProperty Name="tienda_codigo" ColumnName="tienda_codigo" />
+          <ScalarProperty Name="categoria_categoria" ColumnName="categoria_categoria" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="categoria">
+      <EntityTypeMapping TypeName="dbshopadealModel.categoria">
+        <MappingFragment StoreEntitySet="categoria">
+          <ScalarProperty Name="categoria1" ColumnName="categoria1" />
+          <ScalarProperty Name="descripcion" ColumnName="descripcion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="cesta">
+      <EntityTypeMapping TypeName="dbshopadealModel.cesta">
+        <MappingFragment StoreEntitySet="cesta">
+          <ScalarProperty Name="articulo_id" ColumnName="articulo_id" />
+          <ScalarProperty Name="pedido_numpedido" ColumnName="pedido_numpedido" />
+          <ScalarProperty Name="cantidad" ColumnName="cantidad" />
+          <ScalarProperty Name="calificacion" ColumnName="calificacion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="pedido">
+      <EntityTypeMapping TypeName="dbshopadealModel.pedido">
+        <MappingFragment StoreEntitySet="pedido">
+          <ScalarProperty Name="numpedido" ColumnName="numpedido" />
+          <ScalarProperty Name="tipodoc" ColumnName="tipodoc" />
+          <ScalarProperty Name="usuario_cedula" ColumnName="usuario_cedula" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tienda">
+      <EntityTypeMapping TypeName="dbshopadealModel.tienda">
+        <MappingFragment StoreEntitySet="tienda">
+          <ScalarProperty Name="codigo" ColumnName="codigo" />
+          <ScalarProperty Name="nombre" ColumnName="nombre" />
+          <ScalarProperty Name="cedula" ColumnName="cedula" />
+          <ScalarProperty Name="direccion" ColumnName="direccion" />
+          <ScalarProperty Name="telefono" ColumnName="telefono" />
+          <ScalarProperty Name="correo" ColumnName="correo" />
+          <ScalarProperty Name="usuario_cedula" ColumnName="usuario_cedula" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="usuario">
+      <EntityTypeMapping TypeName="dbshopadealModel.usuario">
+        <MappingFragment StoreEntitySet="usuario">
+          <ScalarProperty Name="cedula" ColumnName="cedula" />
+          <ScalarProperty Name="nombreusuario" ColumnName="nombreusuario" />
+          <ScalarProperty Name="nombre" ColumnName="nombre" />
+          <ScalarProperty Name="apellido1" ColumnName="apellido1" />
+          <ScalarProperty Name="apellido2" ColumnName="apellido2" />
+          <ScalarProperty Name="direccion" ColumnName="direccion" />
+          <ScalarProperty Name="telefono" ColumnName="telefono" />
+          <ScalarProperty Name="correo" ColumnName="correo" />
+          <ScalarProperty Name="clave" ColumnName="clave" />
+          <ScalarProperty Name="rol" ColumnName="rol" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

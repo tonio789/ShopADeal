@@ -1,0 +1,9 @@
+﻿<Application x:Class="WpfWpfShopADeal.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:WpfWpfShopADeal"
+             StartupUri="Index.xaml">
+    <Application.Resources>
+         
+    </Application.Resources>
+</Application>

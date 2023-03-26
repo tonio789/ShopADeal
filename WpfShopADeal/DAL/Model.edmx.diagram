@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="46891dc960134f2eb13df8da61084a82" Name="Diagram1" ZoomLevel="124">
+        <EntityTypeShape EntityType="dbshopadealModel.administra" Width="2.125" PointX="7.375" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbshopadealModel.articulo" Width="2.375" PointX="4.375" PointY="4.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbshopadealModel.categoria" Width="2.5" PointX="0.875" PointY="4.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbshopadealModel.cesta" Width="2" PointX="7.5" PointY="5.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbshopadealModel.pedido" Width="2.125" PointX="10.25" PointY="5.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbshopadealModel.tienda" Width="2.5" PointX="4.375" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbshopadealModel.usuario" Width="2.125" PointX="10.25" PointY="0.75" IsExpanded="true" />
+        <AssociationConnector Association="dbshopadealModel.administra_tienda_fk" ManuallyRouted="false" />
+        <AssociationConnector Association="dbshopadealModel.administra_usuario_fk" ManuallyRouted="false" />
+        <AssociationConnector Association="dbshopadealModel.articulo_categoria_fk" ManuallyRouted="false" />
+        <AssociationConnector Association="dbshopadealModel.articulo_tienda_fk" ManuallyRouted="false" />
+        <AssociationConnector Association="dbshopadealModel.cesta_articulo_fk" ManuallyRouted="false" />
+        <AssociationConnector Association="dbshopadealModel.cesta_pedido_fk" ManuallyRouted="false" />
+        <AssociationConnector Association="dbshopadealModel.pedido_usuario_fk" ManuallyRouted="false" />
+        <AssociationConnector Association="dbshopadealModel.tienda_usuario_fk" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

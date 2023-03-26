@@ -1,0 +1,213 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="dbshopadealModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="administra">
+    <Key>
+      <PropertyRef Name="usuario_cedula" />
+      <PropertyRef Name="tienda_codigo" />
+    </Key>
+    <Property Name="usuario_cedula" Type="numeric" Precision="9" Scale="0" Nullable="false" />
+    <Property Name="tienda_codigo" Type="int" Nullable="false" />
+    <Property Name="fecha" Type="date" Nullable="false" />
+  </EntityType>
+  <EntityType Name="articulo">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="codigobarras" Type="varchar" MaxLength="50" />
+    <Property Name="nombre" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="precio" Type="numeric" Precision="22" Scale="2" Nullable="false" />
+    <Property Name="descripcion" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="tienda_codigo" Type="int" Nullable="false" />
+    <Property Name="categoria_categoria" Type="varchar" MaxLength="20" Nullable="false" />
+  </EntityType>
+  <EntityType Name="categoria">
+    <Key>
+      <PropertyRef Name="categoria1" />
+    </Key>
+    <Property Name="categoria1" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="descripcion" Type="varchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="cesta">
+    <Key>
+      <PropertyRef Name="articulo_id" />
+      <PropertyRef Name="pedido_numpedido" />
+    </Key>
+    <Property Name="articulo_id" Type="int" Nullable="false" />
+    <Property Name="pedido_numpedido" Type="int" Nullable="false" />
+    <Property Name="cantidad" Type="int" Nullable="false" />
+    <Property Name="calificacion" Type="numeric" Precision="1" Scale="0" />
+  </EntityType>
+  <EntityType Name="pedido">
+    <Key>
+      <PropertyRef Name="numpedido" />
+    </Key>
+    <Property Name="numpedido" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="tipodoc" Type="varchar" MaxLength="2" Nullable="false" />
+    <Property Name="usuario_cedula" Type="numeric" Precision="9" Scale="0" Nullable="false" />
+  </EntityType>
+  <EntityType Name="tienda">
+    <Key>
+      <PropertyRef Name="codigo" />
+    </Key>
+    <Property Name="codigo" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="nombre" Type="varchar" MaxLength="30" Nullable="false" />
+    <Property Name="cedula" Type="numeric" Precision="13" Scale="0" Nullable="false" />
+    <Property Name="direccion" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="telefono" Type="numeric" Precision="8" Scale="0" Nullable="false" />
+    <Property Name="correo" Type="varchar" MaxLength="16" Nullable="false" />
+    <Property Name="usuario_cedula" Type="numeric" Precision="9" Scale="0" Nullable="false" />
+  </EntityType>
+  <EntityType Name="usuario">
+    <Key>
+      <PropertyRef Name="cedula" />
+    </Key>
+    <Property Name="cedula" Type="numeric" Precision="9" Scale="0" Nullable="false" />
+    <Property Name="nombreusuario" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="nombre" Type="varchar" MaxLength="15" Nullable="false" />
+    <Property Name="apellido1" Type="varchar" MaxLength="15" Nullable="false" />
+    <Property Name="apellido2" Type="varchar" MaxLength="15" />
+    <Property Name="direccion" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="telefono" Type="numeric" Precision="8" Scale="0" Nullable="false" />
+    <Property Name="correo" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="clave" Type="varchar" MaxLength="16" Nullable="false" />
+    <Property Name="rol" Type="char" MaxLength="1" Nullable="false" />
+  </EntityType>
+  <Association Name="administra_tienda_fk">
+    <End Role="tienda" Type="Self.tienda" Multiplicity="1" />
+    <End Role="administra" Type="Self.administra" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tienda">
+        <PropertyRef Name="codigo" />
+      </Principal>
+      <Dependent Role="administra">
+        <PropertyRef Name="tienda_codigo" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="administra_usuario_fk">
+    <End Role="usuario" Type="Self.usuario" Multiplicity="1" />
+    <End Role="administra" Type="Self.administra" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="usuario">
+        <PropertyRef Name="cedula" />
+      </Principal>
+      <Dependent Role="administra">
+        <PropertyRef Name="usuario_cedula" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="articulo_categoria_fk">
+    <End Role="categoria" Type="Self.categoria" Multiplicity="1" />
+    <End Role="articulo" Type="Self.articulo" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="categoria">
+        <PropertyRef Name="categoria1" />
+      </Principal>
+      <Dependent Role="articulo">
+        <PropertyRef Name="categoria_categoria" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="articulo_tienda_fk">
+    <End Role="tienda" Type="Self.tienda" Multiplicity="1" />
+    <End Role="articulo" Type="Self.articulo" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tienda">
+        <PropertyRef Name="codigo" />
+      </Principal>
+      <Dependent Role="articulo">
+        <PropertyRef Name="tienda_codigo" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="cesta_articulo_fk">
+    <End Role="articulo" Type="Self.articulo" Multiplicity="1" />
+    <End Role="cesta" Type="Self.cesta" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="articulo">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="cesta">
+        <PropertyRef Name="articulo_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="cesta_pedido_fk">
+    <End Role="pedido" Type="Self.pedido" Multiplicity="1" />
+    <End Role="cesta" Type="Self.cesta" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="pedido">
+        <PropertyRef Name="numpedido" />
+      </Principal>
+      <Dependent Role="cesta">
+        <PropertyRef Name="pedido_numpedido" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="pedido_usuario_fk">
+    <End Role="usuario" Type="Self.usuario" Multiplicity="1" />
+    <End Role="pedido" Type="Self.pedido" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="usuario">
+        <PropertyRef Name="cedula" />
+      </Principal>
+      <Dependent Role="pedido">
+        <PropertyRef Name="usuario_cedula" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="tienda_usuario_fk">
+    <End Role="usuario" Type="Self.usuario" Multiplicity="1" />
+    <End Role="tienda" Type="Self.tienda" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="usuario">
+        <PropertyRef Name="cedula" />
+      </Principal>
+      <Dependent Role="tienda">
+        <PropertyRef Name="usuario_cedula" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="dbshopadealModelStoreContainer">
+    <EntitySet Name="administra" EntityType="Self.administra" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="articulo" EntityType="Self.articulo" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="categoria" EntityType="Self.categoria" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="cesta" EntityType="Self.cesta" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="pedido" EntityType="Self.pedido" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tienda" EntityType="Self.tienda" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="usuario" EntityType="Self.usuario" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="administra_tienda_fk" Association="Self.administra_tienda_fk">
+      <End Role="tienda" EntitySet="tienda" />
+      <End Role="administra" EntitySet="administra" />
+    </AssociationSet>
+    <AssociationSet Name="administra_usuario_fk" Association="Self.administra_usuario_fk">
+      <End Role="usuario" EntitySet="usuario" />
+      <End Role="administra" EntitySet="administra" />
+    </AssociationSet>
+    <AssociationSet Name="articulo_categoria_fk" Association="Self.articulo_categoria_fk">
+      <End Role="categoria" EntitySet="categoria" />
+      <End Role="articulo" EntitySet="articulo" />
+    </AssociationSet>
+    <AssociationSet Name="articulo_tienda_fk" Association="Self.articulo_tienda_fk">
+      <End Role="tienda" EntitySet="tienda" />
+      <End Role="articulo" EntitySet="articulo" />
+    </AssociationSet>
+    <AssociationSet Name="cesta_articulo_fk" Association="Self.cesta_articulo_fk">
+      <End Role="articulo" EntitySet="articulo" />
+      <End Role="cesta" EntitySet="cesta" />
+    </AssociationSet>
+    <AssociationSet Name="cesta_pedido_fk" Association="Self.cesta_pedido_fk">
+      <End Role="pedido" EntitySet="pedido" />
+      <End Role="cesta" EntitySet="cesta" />
+    </AssociationSet>
+    <AssociationSet Name="pedido_usuario_fk" Association="Self.pedido_usuario_fk">
+      <End Role="usuario" EntitySet="usuario" />
+      <End Role="pedido" EntitySet="pedido" />
+    </AssociationSet>
+    <AssociationSet Name="tienda_usuario_fk" Association="Self.tienda_usuario_fk">
+      <End Role="usuario" EntitySet="usuario" />
+      <End Role="tienda" EntitySet="tienda" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

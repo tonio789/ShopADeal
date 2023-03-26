@@ -1,0 +1,316 @@
+C:\Users\Antonio Alvarez\source\repos\ShopADeal\WpfShopADeal\obj\Debug\WpfShopADeal.csproj.AssemblyReference.cache
+C:\Users\Antonio Alvarez\source\repos\ShopADeal\WpfShopADeal\obj\Debug\WpfShopADeal.csproj.SuggestedBindingRedirects.cache
+C:\Users\Antonio Alvarez\source\repos\ShopADeal\WpfShopADeal\obj\Debug\DeleteUser.g.cs
+C:\Users\Antonio Alvarez\source\repos\ShopADeal\WpfShopADeal\obj\Debug\EditStore.g.cs
+C:\Users\Antonio Alvarez\source\repos\ShopADeal\WpfShopADeal\obj\Debug\EditStores.g.cs
+C:\Users\Antonio Alvarez\source\repos\ShopADeal\WpfShopADeal\obj\Debug\EditTeam.g.cs
+C:\Users\Antonio Alvarez\source\repos\ShopADeal\WpfShopADeal\obj\Debug\EditUser.g.cs
+C:\Users\Antonio Alvarez\source\repos\ShopADeal\WpfShopADeal\obj\Debug\Index.g.cs
+C:\Users\Antonio Alvarez\source\repos\ShopADeal\WpfShopADeal\obj\Debug\Login.g.cs
+C:\Users\Antonio Alvarez\source\repos\ShopADeal\WpfShopADeal\obj\Debug\Principal.g.cs
+C:\Users\Antonio Alvarez\source\repos\ShopADeal\WpfShopADeal\obj\Debug\Register1.g.cs
+C:\Users\Antonio Alvarez\source\repos\ShopADeal\WpfShopADeal\obj\Debug\Register2.g.cs
+C:\Users\Antonio Alvarez\source\repos\ShopADeal\WpfShopADeal\obj\Debug\Registro3.g.cs
+C:\Users\Antonio Alvarez\source\repos\ShopADeal\WpfShopADeal\obj\Debug\App.g.cs
+C:\Users\Antonio Alvarez\source\repos\ShopADeal\WpfShopADeal\obj\Debug\WpfShopADeal_MarkupCompile.cache
+C:\Users\Antonio Alvarez\source\repos\ShopADeal\WpfShopADeal\obj\Debug\WpfShopADeal_MarkupCompile.lref
+C:\Users\Antonio Alvarez\source\repos\ShopADeal\WpfShopADeal\bin\Debug\WpfShopADeal.exe.config
+C:\Users\Antonio Alvarez\source\repos\ShopADeal\WpfShopADeal\bin\Debug\WpfShopADeal.exe
+C:\Users\Antonio Alvarez\source\repos\ShopADeal\WpfShopADeal\bin\Debug\WpfShopADeal.pdb
+C:\Users\Antonio Alvarez\source\repos\ShopADeal\WpfShopADeal\obj\Debug\DeleteUser.baml
+C:\Users\Antonio Alvarez\source\repos\ShopADeal\WpfShopADeal\obj\Debug\EditStore.baml
+C:\Users\Antonio Alvarez\source\repos\ShopADeal\WpfShopADeal\obj\Debug\EditStores.baml
+C:\Users\Antonio Alvarez\source\repos\ShopADeal\WpfShopADeal\obj\Debug\EditTeam.baml
+C:\Users\Antonio Alvarez\source\repos\ShopADeal\WpfShopADeal\obj\Debug\EditUser.baml
+C:\Users\Antonio Alvarez\source\repos\ShopADeal\WpfShopADeal\obj\Debug\Index.baml
+C:\Users\Antonio Alvarez\source\repos\ShopADeal\WpfShopADeal\obj\Debug\Login.baml
+C:\Users\Antonio Alvarez\source\repos\ShopADeal\WpfShopADeal\obj\Debug\Principal.baml
+C:\Users\Antonio Alvarez\source\repos\ShopADeal\WpfShopADeal\obj\Debug\Register1.baml
+C:\Users\Antonio Alvarez\source\repos\ShopADeal\WpfShopADeal\obj\Debug\Register2.baml
+C:\Users\Antonio Alvarez\source\repos\ShopADeal\WpfShopADeal\obj\Debug\Registro3.baml
+C:\Users\Antonio Alvarez\source\repos\ShopADeal\WpfShopADeal\obj\Debug\WpfShopADeal.g.resources
+C:\Users\Antonio Alvarez\source\repos\ShopADeal\WpfShopADeal\obj\Debug\WpfShopADeal.Properties.Resources.resources
+C:\Users\Antonio Alvarez\source\repos\ShopADeal\WpfShopADeal\obj\Debug\WpfShopADeal.csproj.GenerateResource.cache
+C:\Users\Antonio Alvarez\source\repos\ShopADeal\WpfShopADeal\obj\Debug\WpfShopADeal.csproj.CoreCompileInputs.cache
+C:\Users\Antonio Alvarez\source\repos\ShopADeal\WpfShopADeal\obj\Debug\WpfShopADeal.exe
+C:\Users\Antonio Alvarez\source\repos\ShopADeal\WpfShopADeal\obj\Debug\WpfShopADeal.pdb
+C:\Users\Antonio Alvarez\OneDrive\Downloads\ShopADeal\WpfShopADeal\obj\Debug\WpfShopADeal.csproj.AssemblyReference.cache
+C:\Users\Antonio Alvarez\OneDrive\Downloads\ShopADeal\WpfShopADeal\obj\Debug\WpfShopADeal.csproj.SuggestedBindingRedirects.cache
+C:\Users\Antonio Alvarez\OneDrive\Downloads\ShopADeal\WpfShopADeal\obj\Debug\Categories.g.cs
+C:\Users\Antonio Alvarez\OneDrive\Downloads\ShopADeal\WpfShopADeal\obj\Debug\DeleteUser.g.cs
+C:\Users\Antonio Alvarez\OneDrive\Downloads\ShopADeal\WpfShopADeal\obj\Debug\EditArticles.g.cs
+C:\Users\Antonio Alvarez\OneDrive\Downloads\ShopADeal\WpfShopADeal\obj\Debug\EditStore.g.cs
+C:\Users\Antonio Alvarez\OneDrive\Downloads\ShopADeal\WpfShopADeal\obj\Debug\EditStores.g.cs
+C:\Users\Antonio Alvarez\OneDrive\Downloads\ShopADeal\WpfShopADeal\obj\Debug\EditTeam.g.cs
+C:\Users\Antonio Alvarez\OneDrive\Downloads\ShopADeal\WpfShopADeal\obj\Debug\EditUser.g.cs
+C:\Users\Antonio Alvarez\OneDrive\Downloads\ShopADeal\WpfShopADeal\obj\Debug\FormArticle.g.cs
+C:\Users\Antonio Alvarez\OneDrive\Downloads\ShopADeal\WpfShopADeal\obj\Debug\FormCategory.g.cs
+C:\Users\Antonio Alvarez\OneDrive\Downloads\ShopADeal\WpfShopADeal\obj\Debug\Index.g.cs
+C:\Users\Antonio Alvarez\OneDrive\Downloads\ShopADeal\WpfShopADeal\obj\Debug\Login.g.cs
+C:\Users\Antonio Alvarez\OneDrive\Downloads\ShopADeal\WpfShopADeal\obj\Debug\PreviousOrders.g.cs
+C:\Users\Antonio Alvarez\OneDrive\Downloads\ShopADeal\WpfShopADeal\obj\Debug\Principal.g.cs
+C:\Users\Antonio Alvarez\OneDrive\Downloads\ShopADeal\WpfShopADeal\obj\Debug\Register1.g.cs
+C:\Users\Antonio Alvarez\OneDrive\Downloads\ShopADeal\WpfShopADeal\obj\Debug\Register2.g.cs
+C:\Users\Antonio Alvarez\OneDrive\Downloads\ShopADeal\WpfShopADeal\obj\Debug\Registro3.g.cs
+C:\Users\Antonio Alvarez\OneDrive\Downloads\ShopADeal\WpfShopADeal\obj\Debug\Shop.g.cs
+C:\Users\Antonio Alvarez\OneDrive\Downloads\ShopADeal\WpfShopADeal\obj\Debug\ShoppingCart.g.cs
+C:\Users\Antonio Alvarez\OneDrive\Downloads\ShopADeal\WpfShopADeal\obj\Debug\App.g.cs
+C:\Users\Antonio Alvarez\OneDrive\Downloads\ShopADeal\WpfShopADeal\obj\Debug\WpfShopADeal_Content.g.cs
+C:\Users\Antonio Alvarez\OneDrive\Downloads\ShopADeal\WpfShopADeal\obj\Debug\WpfShopADeal_MarkupCompile.cache
+C:\Users\Antonio Alvarez\OneDrive\Downloads\ShopADeal\WpfShopADeal\obj\Debug\WpfShopADeal_MarkupCompile.lref
+C:\Users\Antonio Alvarez\OneDrive\Downloads\ShopADeal\WpfShopADeal\obj\Debug\WpfShopADeal.exe
+C:\Users\Antonio Alvarez\OneDrive\Downloads\ShopADeal\WpfShopADeal\obj\Debug\WpfShopADeal.pdb
+C:\Users\Antonio Alvarez\OneDrive\Downloads\ShopADeal\WpfShopADeal\bin\Debug\WpfShopADeal.exe.config
+C:\Users\Antonio Alvarez\OneDrive\Downloads\ShopADeal\WpfShopADeal\bin\Debug\WpfShopADeal.exe
+C:\Users\Antonio Alvarez\OneDrive\Downloads\ShopADeal\WpfShopADeal\bin\Debug\WpfShopADeal.pdb
+C:\Users\Antonio Alvarez\OneDrive\Downloads\ShopADeal\WpfShopADeal\bin\Debug\EntityFramework.dll
+C:\Users\Antonio Alvarez\OneDrive\Downloads\ShopADeal\WpfShopADeal\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Antonio Alvarez\OneDrive\Downloads\ShopADeal\WpfShopADeal\bin\Debug\EntityFramework.xml
+C:\Users\Antonio Alvarez\OneDrive\Downloads\ShopADeal\WpfShopADeal\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Antonio Alvarez\OneDrive\Downloads\ShopADeal\WpfShopADeal\obj\Debug\Categories.baml
+C:\Users\Antonio Alvarez\OneDrive\Downloads\ShopADeal\WpfShopADeal\obj\Debug\DeleteUser.baml
+C:\Users\Antonio Alvarez\OneDrive\Downloads\ShopADeal\WpfShopADeal\obj\Debug\EditArticles.baml
+C:\Users\Antonio Alvarez\OneDrive\Downloads\ShopADeal\WpfShopADeal\obj\Debug\EditStore.baml
+C:\Users\Antonio Alvarez\OneDrive\Downloads\ShopADeal\WpfShopADeal\obj\Debug\EditStores.baml
+C:\Users\Antonio Alvarez\OneDrive\Downloads\ShopADeal\WpfShopADeal\obj\Debug\EditTeam.baml
+C:\Users\Antonio Alvarez\OneDrive\Downloads\ShopADeal\WpfShopADeal\obj\Debug\EditUser.baml
+C:\Users\Antonio Alvarez\OneDrive\Downloads\ShopADeal\WpfShopADeal\obj\Debug\FormArticle.baml
+C:\Users\Antonio Alvarez\OneDrive\Downloads\ShopADeal\WpfShopADeal\obj\Debug\FormCategory.baml
+C:\Users\Antonio Alvarez\OneDrive\Downloads\ShopADeal\WpfShopADeal\obj\Debug\Index.baml
+C:\Users\Antonio Alvarez\OneDrive\Downloads\ShopADeal\WpfShopADeal\obj\Debug\Login.baml
+C:\Users\Antonio Alvarez\OneDrive\Downloads\ShopADeal\WpfShopADeal\obj\Debug\PreviousOrders.baml
+C:\Users\Antonio Alvarez\OneDrive\Downloads\ShopADeal\WpfShopADeal\obj\Debug\Principal.baml
+C:\Users\Antonio Alvarez\OneDrive\Downloads\ShopADeal\WpfShopADeal\obj\Debug\Register1.baml
+C:\Users\Antonio Alvarez\OneDrive\Downloads\ShopADeal\WpfShopADeal\obj\Debug\Register2.baml
+C:\Users\Antonio Alvarez\OneDrive\Downloads\ShopADeal\WpfShopADeal\obj\Debug\Registro3.baml
+C:\Users\Antonio Alvarez\OneDrive\Downloads\ShopADeal\WpfShopADeal\obj\Debug\Shop.baml
+C:\Users\Antonio Alvarez\OneDrive\Downloads\ShopADeal\WpfShopADeal\obj\Debug\ShoppingCart.baml
+C:\Users\Antonio Alvarez\OneDrive\Downloads\ShopADeal\WpfShopADeal\obj\Debug\WpfShopADeal.g.resources
+C:\Users\Antonio Alvarez\OneDrive\Downloads\ShopADeal\WpfShopADeal\obj\Debug\WpfShopADeal.Properties.Resources.resources
+C:\Users\Antonio Alvarez\OneDrive\Downloads\ShopADeal\WpfShopADeal\obj\Debug\WpfShopADeal.csproj.GenerateResource.cache
+C:\Users\Antonio Alvarez\OneDrive\Downloads\ShopADeal\WpfShopADeal\obj\Debug\WpfShopADeal.csproj.CoreCompileInputs.cache
+C:\Users\Antonio Alvarez\OneDrive\Downloads\ShopADeal\WpfShopADeal\obj\Debug\WpfShopADeal.csproj.CopyComplete
+C:\Users\Antonio Alvarez\OneDrive\Escritorio\ShopADeal\WpfShopADeal\bin\Debug\WpfShopADeal.exe.config
+C:\Users\Antonio Alvarez\OneDrive\Escritorio\ShopADeal\WpfShopADeal\bin\Debug\WpfShopADeal.exe
+C:\Users\Antonio Alvarez\OneDrive\Escritorio\ShopADeal\WpfShopADeal\bin\Debug\WpfShopADeal.pdb
+C:\Users\Antonio Alvarez\OneDrive\Escritorio\ShopADeal\WpfShopADeal\bin\Debug\EntityFramework.dll
+C:\Users\Antonio Alvarez\OneDrive\Escritorio\ShopADeal\WpfShopADeal\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Antonio Alvarez\OneDrive\Escritorio\ShopADeal\WpfShopADeal\bin\Debug\EntityFramework.xml
+C:\Users\Antonio Alvarez\OneDrive\Escritorio\ShopADeal\WpfShopADeal\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Antonio Alvarez\OneDrive\Escritorio\ShopADeal\WpfShopADeal\obj\Debug\WpfShopADeal.csproj.AssemblyReference.cache
+C:\Users\Antonio Alvarez\OneDrive\Escritorio\ShopADeal\WpfShopADeal\obj\Debug\WpfShopADeal.csproj.SuggestedBindingRedirects.cache
+C:\Users\Antonio Alvarez\OneDrive\Escritorio\ShopADeal\WpfShopADeal\obj\Debug\Index.g.cs
+C:\Users\Antonio Alvarez\OneDrive\Escritorio\ShopADeal\WpfShopADeal\obj\Debug\App.g.cs
+C:\Users\Antonio Alvarez\OneDrive\Escritorio\ShopADeal\WpfShopADeal\obj\Debug\WpfShopADeal_Content.g.cs
+C:\Users\Antonio Alvarez\OneDrive\Escritorio\ShopADeal\WpfShopADeal\obj\Debug\WpfShopADeal_MarkupCompile.cache
+C:\Users\Antonio Alvarez\OneDrive\Escritorio\ShopADeal\WpfShopADeal\obj\Debug\WpfShopADeal_MarkupCompile.lref
+C:\Users\Antonio Alvarez\OneDrive\Escritorio\ShopADeal\WpfShopADeal\obj\Debug\Index.baml
+C:\Users\Antonio Alvarez\OneDrive\Escritorio\ShopADeal\WpfShopADeal\obj\Debug\WpfShopADeal.g.resources
+C:\Users\Antonio Alvarez\OneDrive\Escritorio\ShopADeal\WpfShopADeal\obj\Debug\WpfShopADeal.Properties.Resources.resources
+C:\Users\Antonio Alvarez\OneDrive\Escritorio\ShopADeal\WpfShopADeal\obj\Debug\WpfShopADeal.csproj.GenerateResource.cache
+C:\Users\Antonio Alvarez\OneDrive\Escritorio\ShopADeal\WpfShopADeal\obj\Debug\WpfShopADeal.csproj.CoreCompileInputs.cache
+C:\Users\Antonio Alvarez\OneDrive\Escritorio\ShopADeal\WpfShopADeal\obj\Debug\WpfShopADeal.csproj.CopyComplete
+C:\Users\Antonio Alvarez\OneDrive\Escritorio\ShopADeal\WpfShopADeal\obj\Debug\WpfShopADeal.exe
+C:\Users\Antonio Alvarez\OneDrive\Escritorio\ShopADeal\WpfShopADeal\obj\Debug\WpfShopADeal.pdb
+C:\Users\gabri\OneDrive\Escritorio\ShopADeal\WpfShopADeal\bin\Debug\WpfShopADeal.exe.config
+C:\Users\gabri\OneDrive\Escritorio\ShopADeal\WpfShopADeal\bin\Debug\WpfShopADeal.exe
+C:\Users\gabri\OneDrive\Escritorio\ShopADeal\WpfShopADeal\bin\Debug\WpfShopADeal.pdb
+C:\Users\gabri\OneDrive\Escritorio\ShopADeal\WpfShopADeal\bin\Debug\EntityFramework.dll
+C:\Users\gabri\OneDrive\Escritorio\ShopADeal\WpfShopADeal\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\gabri\OneDrive\Escritorio\ShopADeal\WpfShopADeal\bin\Debug\EntityFramework.xml
+C:\Users\gabri\OneDrive\Escritorio\ShopADeal\WpfShopADeal\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\gabri\OneDrive\Escritorio\ShopADeal\WpfShopADeal\obj\Debug\WpfShopADeal.csproj.AssemblyReference.cache
+C:\Users\gabri\OneDrive\Escritorio\ShopADeal\WpfShopADeal\obj\Debug\WpfShopADeal.csproj.SuggestedBindingRedirects.cache
+C:\Users\gabri\OneDrive\Escritorio\ShopADeal\WpfShopADeal\obj\Debug\Categories.g.cs
+C:\Users\gabri\OneDrive\Escritorio\ShopADeal\WpfShopADeal\obj\Debug\DeleteUser.g.cs
+C:\Users\gabri\OneDrive\Escritorio\ShopADeal\WpfShopADeal\obj\Debug\EditArticles.g.cs
+C:\Users\gabri\OneDrive\Escritorio\ShopADeal\WpfShopADeal\obj\Debug\EditStore.g.cs
+C:\Users\gabri\OneDrive\Escritorio\ShopADeal\WpfShopADeal\obj\Debug\EditStores.g.cs
+C:\Users\gabri\OneDrive\Escritorio\ShopADeal\WpfShopADeal\obj\Debug\EditTeam.g.cs
+C:\Users\gabri\OneDrive\Escritorio\ShopADeal\WpfShopADeal\obj\Debug\EditUser.g.cs
+C:\Users\gabri\OneDrive\Escritorio\ShopADeal\WpfShopADeal\obj\Debug\FormArticle.g.cs
+C:\Users\gabri\OneDrive\Escritorio\ShopADeal\WpfShopADeal\obj\Debug\FormCategory.g.cs
+C:\Users\gabri\OneDrive\Escritorio\ShopADeal\WpfShopADeal\obj\Debug\Index.g.cs
+C:\Users\gabri\OneDrive\Escritorio\ShopADeal\WpfShopADeal\obj\Debug\Login.g.cs
+C:\Users\gabri\OneDrive\Escritorio\ShopADeal\WpfShopADeal\obj\Debug\PreviousOrders.g.cs
+C:\Users\gabri\OneDrive\Escritorio\ShopADeal\WpfShopADeal\obj\Debug\Principal.g.cs
+C:\Users\gabri\OneDrive\Escritorio\ShopADeal\WpfShopADeal\obj\Debug\Register1.g.cs
+C:\Users\gabri\OneDrive\Escritorio\ShopADeal\WpfShopADeal\obj\Debug\Register2.g.cs
+C:\Users\gabri\OneDrive\Escritorio\ShopADeal\WpfShopADeal\obj\Debug\Registro3.g.cs
+C:\Users\gabri\OneDrive\Escritorio\ShopADeal\WpfShopADeal\obj\Debug\Shop.g.cs
+C:\Users\gabri\OneDrive\Escritorio\ShopADeal\WpfShopADeal\obj\Debug\ShoppingCart.g.cs
+C:\Users\gabri\OneDrive\Escritorio\ShopADeal\WpfShopADeal\obj\Debug\App.g.cs
+C:\Users\gabri\OneDrive\Escritorio\ShopADeal\WpfShopADeal\obj\Debug\WpfShopADeal_Content.g.cs
+C:\Users\gabri\OneDrive\Escritorio\ShopADeal\WpfShopADeal\obj\Debug\WpfShopADeal_MarkupCompile.cache
+C:\Users\gabri\OneDrive\Escritorio\ShopADeal\WpfShopADeal\obj\Debug\WpfShopADeal_MarkupCompile.lref
+C:\Users\gabri\OneDrive\Escritorio\ShopADeal\WpfShopADeal\obj\Debug\Categories.baml
+C:\Users\gabri\OneDrive\Escritorio\ShopADeal\WpfShopADeal\obj\Debug\DeleteUser.baml
+C:\Users\gabri\OneDrive\Escritorio\ShopADeal\WpfShopADeal\obj\Debug\EditArticles.baml
+C:\Users\gabri\OneDrive\Escritorio\ShopADeal\WpfShopADeal\obj\Debug\EditStore.baml
+C:\Users\gabri\OneDrive\Escritorio\ShopADeal\WpfShopADeal\obj\Debug\EditStores.baml
+C:\Users\gabri\OneDrive\Escritorio\ShopADeal\WpfShopADeal\obj\Debug\EditTeam.baml
+C:\Users\gabri\OneDrive\Escritorio\ShopADeal\WpfShopADeal\obj\Debug\EditUser.baml
+C:\Users\gabri\OneDrive\Escritorio\ShopADeal\WpfShopADeal\obj\Debug\FormArticle.baml
+C:\Users\gabri\OneDrive\Escritorio\ShopADeal\WpfShopADeal\obj\Debug\FormCategory.baml
+C:\Users\gabri\OneDrive\Escritorio\ShopADeal\WpfShopADeal\obj\Debug\Index.baml
+C:\Users\gabri\OneDrive\Escritorio\ShopADeal\WpfShopADeal\obj\Debug\Login.baml
+C:\Users\gabri\OneDrive\Escritorio\ShopADeal\WpfShopADeal\obj\Debug\PreviousOrders.baml
+C:\Users\gabri\OneDrive\Escritorio\ShopADeal\WpfShopADeal\obj\Debug\Principal.baml
+C:\Users\gabri\OneDrive\Escritorio\ShopADeal\WpfShopADeal\obj\Debug\Register1.baml
+C:\Users\gabri\OneDrive\Escritorio\ShopADeal\WpfShopADeal\obj\Debug\Register2.baml
+C:\Users\gabri\OneDrive\Escritorio\ShopADeal\WpfShopADeal\obj\Debug\Registro3.baml
+C:\Users\gabri\OneDrive\Escritorio\ShopADeal\WpfShopADeal\obj\Debug\Shop.baml
+C:\Users\gabri\OneDrive\Escritorio\ShopADeal\WpfShopADeal\obj\Debug\ShoppingCart.baml
+C:\Users\gabri\OneDrive\Escritorio\ShopADeal\WpfShopADeal\obj\Debug\WpfShopADeal.g.resources
+C:\Users\gabri\OneDrive\Escritorio\ShopADeal\WpfShopADeal\obj\Debug\WpfShopADeal.Properties.Resources.resources
+C:\Users\gabri\OneDrive\Escritorio\ShopADeal\WpfShopADeal\obj\Debug\WpfShopADeal.csproj.GenerateResource.cache
+C:\Users\gabri\OneDrive\Escritorio\ShopADeal\WpfShopADeal\obj\Debug\WpfShopADeal.csproj.CoreCompileInputs.cache
+C:\Users\gabri\OneDrive\Escritorio\ShopADeal\WpfShopADeal\obj\Debug\WpfShopADeal.csproj.CopyComplete
+C:\Users\gabri\OneDrive\Escritorio\ShopADeal\WpfShopADeal\obj\Debug\WpfShopADeal.exe
+C:\Users\gabri\OneDrive\Escritorio\ShopADeal\WpfShopADeal\obj\Debug\WpfShopADeal.pdb
+C:\Users\Antonio Alvarez\OneDrive\Downloads\ShopADeal (2)\ShopADeal\WpfShopADeal\bin\Debug\WpfShopADeal.exe.config
+C:\Users\Antonio Alvarez\OneDrive\Downloads\ShopADeal (2)\ShopADeal\WpfShopADeal\bin\Debug\WpfShopADeal.exe
+C:\Users\Antonio Alvarez\OneDrive\Downloads\ShopADeal (2)\ShopADeal\WpfShopADeal\bin\Debug\WpfShopADeal.pdb
+C:\Users\Antonio Alvarez\OneDrive\Downloads\ShopADeal (2)\ShopADeal\WpfShopADeal\bin\Debug\EntityFramework.dll
+C:\Users\Antonio Alvarez\OneDrive\Downloads\ShopADeal (2)\ShopADeal\WpfShopADeal\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Antonio Alvarez\OneDrive\Downloads\ShopADeal (2)\ShopADeal\WpfShopADeal\bin\Debug\EntityFramework.xml
+C:\Users\Antonio Alvarez\OneDrive\Downloads\ShopADeal (2)\ShopADeal\WpfShopADeal\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Antonio Alvarez\OneDrive\Downloads\ShopADeal (2)\ShopADeal\WpfShopADeal\obj\Debug\WpfShopADeal.csproj.AssemblyReference.cache
+C:\Users\Antonio Alvarez\OneDrive\Downloads\ShopADeal (2)\ShopADeal\WpfShopADeal\obj\Debug\WpfShopADeal.csproj.SuggestedBindingRedirects.cache
+C:\Users\Antonio Alvarez\OneDrive\Downloads\ShopADeal (2)\ShopADeal\WpfShopADeal\obj\Debug\EditArticles.g.cs
+C:\Users\Antonio Alvarez\OneDrive\Downloads\ShopADeal (2)\ShopADeal\WpfShopADeal\obj\Debug\EditStore.g.cs
+C:\Users\Antonio Alvarez\OneDrive\Downloads\ShopADeal (2)\ShopADeal\WpfShopADeal\obj\Debug\EditUser.g.cs
+C:\Users\Antonio Alvarez\OneDrive\Downloads\ShopADeal (2)\ShopADeal\WpfShopADeal\obj\Debug\FormArticle.g.cs
+C:\Users\Antonio Alvarez\OneDrive\Downloads\ShopADeal (2)\ShopADeal\WpfShopADeal\obj\Debug\FormCategory.g.cs
+C:\Users\Antonio Alvarez\OneDrive\Downloads\ShopADeal (2)\ShopADeal\WpfShopADeal\obj\Debug\PreviousOrders.g.cs
+C:\Users\Antonio Alvarez\OneDrive\Downloads\ShopADeal (2)\ShopADeal\WpfShopADeal\obj\Debug\Principal.g.cs
+C:\Users\Antonio Alvarez\OneDrive\Downloads\ShopADeal (2)\ShopADeal\WpfShopADeal\obj\Debug\Shop.g.cs
+C:\Users\Antonio Alvarez\OneDrive\Downloads\ShopADeal (2)\ShopADeal\WpfShopADeal\obj\Debug\ShoppingCart.g.cs
+C:\Users\Antonio Alvarez\OneDrive\Downloads\ShopADeal (2)\ShopADeal\WpfShopADeal\obj\Debug\App.g.cs
+C:\Users\Antonio Alvarez\OneDrive\Downloads\ShopADeal (2)\ShopADeal\WpfShopADeal\obj\Debug\WpfShopADeal_Content.g.cs
+C:\Users\Antonio Alvarez\OneDrive\Downloads\ShopADeal (2)\ShopADeal\WpfShopADeal\obj\Debug\WpfShopADeal_MarkupCompile.cache
+C:\Users\Antonio Alvarez\OneDrive\Downloads\ShopADeal (2)\ShopADeal\WpfShopADeal\obj\Debug\WpfShopADeal_MarkupCompile.lref
+C:\Users\Antonio Alvarez\OneDrive\Downloads\ShopADeal (2)\ShopADeal\WpfShopADeal\obj\Debug\EditArticles.baml
+C:\Users\Antonio Alvarez\OneDrive\Downloads\ShopADeal (2)\ShopADeal\WpfShopADeal\obj\Debug\EditStore.baml
+C:\Users\Antonio Alvarez\OneDrive\Downloads\ShopADeal (2)\ShopADeal\WpfShopADeal\obj\Debug\EditUser.baml
+C:\Users\Antonio Alvarez\OneDrive\Downloads\ShopADeal (2)\ShopADeal\WpfShopADeal\obj\Debug\FormArticle.baml
+C:\Users\Antonio Alvarez\OneDrive\Downloads\ShopADeal (2)\ShopADeal\WpfShopADeal\obj\Debug\FormCategory.baml
+C:\Users\Antonio Alvarez\OneDrive\Downloads\ShopADeal (2)\ShopADeal\WpfShopADeal\obj\Debug\PreviousOrders.baml
+C:\Users\Antonio Alvarez\OneDrive\Downloads\ShopADeal (2)\ShopADeal\WpfShopADeal\obj\Debug\Principal.baml
+C:\Users\Antonio Alvarez\OneDrive\Downloads\ShopADeal (2)\ShopADeal\WpfShopADeal\obj\Debug\Shop.baml
+C:\Users\Antonio Alvarez\OneDrive\Downloads\ShopADeal (2)\ShopADeal\WpfShopADeal\obj\Debug\ShoppingCart.baml
+C:\Users\Antonio Alvarez\OneDrive\Downloads\ShopADeal (2)\ShopADeal\WpfShopADeal\obj\Debug\WpfShopADeal.g.resources
+C:\Users\Antonio Alvarez\OneDrive\Downloads\ShopADeal (2)\ShopADeal\WpfShopADeal\obj\Debug\WpfShopADeal.Properties.Resources.resources
+C:\Users\Antonio Alvarez\OneDrive\Downloads\ShopADeal (2)\ShopADeal\WpfShopADeal\obj\Debug\WpfShopADeal.csproj.GenerateResource.cache
+C:\Users\Antonio Alvarez\OneDrive\Downloads\ShopADeal (2)\ShopADeal\WpfShopADeal\obj\Debug\WpfShopADeal.csproj.CoreCompileInputs.cache
+C:\Users\Antonio Alvarez\OneDrive\Downloads\ShopADeal (2)\ShopADeal\WpfShopADeal\obj\Debug\WpfShopADeal.csproj.CopyComplete
+C:\Users\Antonio Alvarez\OneDrive\Downloads\ShopADeal (2)\ShopADeal\WpfShopADeal\obj\Debug\WpfShopADeal.exe
+C:\Users\Antonio Alvarez\OneDrive\Downloads\ShopADeal (2)\ShopADeal\WpfShopADeal\obj\Debug\WpfShopADeal.pdb
+C:\Users\Antonio Alvarez\OneDrive\Downloads\ShopADeal (2)\ShopADeal\WpfShopADeal\obj\Debug\Index.g.cs
+C:\Users\Antonio Alvarez\OneDrive\Downloads\ShopADeal (2)\ShopADeal\WpfShopADeal\obj\Debug\PL\Login.g.cs
+C:\Users\Antonio Alvarez\OneDrive\Downloads\ShopADeal (2)\ShopADeal\WpfShopADeal\obj\Debug\Index.baml
+C:\Users\Antonio Alvarez\OneDrive\Downloads\ShopADeal (2)\ShopADeal\WpfShopADeal\obj\Debug\PL\Login.baml
+C:\Users\Antonio Alvarez\OneDrive\Downloads\ShopADeal (2)\ShopADeal\WpfShopADeal\obj\Debug\PL\Register1.g.cs
+C:\Users\Antonio Alvarez\OneDrive\Downloads\ShopADeal (2)\ShopADeal\WpfShopADeal\obj\Debug\PL\Register2.g.cs
+C:\Users\Antonio Alvarez\OneDrive\Downloads\ShopADeal (2)\ShopADeal\WpfShopADeal\obj\Debug\PL\Registro3.g.cs
+C:\Users\Antonio Alvarez\OneDrive\Downloads\ShopADeal (2)\ShopADeal\WpfShopADeal\obj\Debug\PL\Register1.baml
+C:\Users\Antonio Alvarez\OneDrive\Downloads\ShopADeal (2)\ShopADeal\WpfShopADeal\obj\Debug\PL\Register2.baml
+C:\Users\Antonio Alvarez\OneDrive\Downloads\ShopADeal (2)\ShopADeal\WpfShopADeal\obj\Debug\PL\Registro3.baml
+C:\Users\Antonio Alvarez\OneDrive\Downloads\ShopADeal (2)\ShopADeal\WpfShopADeal\obj\Debug\PL\EditStores.g.cs
+C:\Users\Antonio Alvarez\OneDrive\Downloads\ShopADeal (2)\ShopADeal\WpfShopADeal\obj\Debug\PL\EditStores.baml
+C:\Users\Antonio Alvarez\OneDrive\Downloads\ShopADeal (2)\ShopADeal\WpfShopADeal\obj\Debug\PL\Categories.g.cs
+C:\Users\Antonio Alvarez\OneDrive\Downloads\ShopADeal (2)\ShopADeal\WpfShopADeal\obj\Debug\PL\DeleteUser.g.cs
+C:\Users\Antonio Alvarez\OneDrive\Downloads\ShopADeal (2)\ShopADeal\WpfShopADeal\obj\Debug\PL\EditTeam.g.cs
+C:\Users\Antonio Alvarez\OneDrive\Downloads\ShopADeal (2)\ShopADeal\WpfShopADeal\obj\Debug\PL\Categories.baml
+C:\Users\Antonio Alvarez\OneDrive\Downloads\ShopADeal (2)\ShopADeal\WpfShopADeal\obj\Debug\PL\DeleteUser.baml
+C:\Users\Antonio Alvarez\OneDrive\Downloads\ShopADeal (2)\ShopADeal\WpfShopADeal\obj\Debug\PL\EditTeam.baml
+C:\Users\Antonio Alvarez\OneDrive\Escritorio\ShopADeal\WpfShopADeal\obj\Debug\PL\Categories.g.cs
+C:\Users\Antonio Alvarez\OneDrive\Escritorio\ShopADeal\WpfShopADeal\obj\Debug\PL\DeleteUser.g.cs
+C:\Users\Antonio Alvarez\OneDrive\Escritorio\ShopADeal\WpfShopADeal\obj\Debug\PL\EditStores.g.cs
+C:\Users\Antonio Alvarez\OneDrive\Escritorio\ShopADeal\WpfShopADeal\obj\Debug\PL\EditTeam.g.cs
+C:\Users\Antonio Alvarez\OneDrive\Escritorio\ShopADeal\WpfShopADeal\obj\Debug\PL\Login.g.cs
+C:\Users\Antonio Alvarez\OneDrive\Escritorio\ShopADeal\WpfShopADeal\obj\Debug\PL\Register1.g.cs
+C:\Users\Antonio Alvarez\OneDrive\Escritorio\ShopADeal\WpfShopADeal\obj\Debug\PL\Register2.g.cs
+C:\Users\Antonio Alvarez\OneDrive\Escritorio\ShopADeal\WpfShopADeal\obj\Debug\PL\Registro3.g.cs
+C:\Users\Antonio Alvarez\OneDrive\Escritorio\ShopADeal\WpfShopADeal\obj\Debug\PL\Categories.baml
+C:\Users\Antonio Alvarez\OneDrive\Escritorio\ShopADeal\WpfShopADeal\obj\Debug\PL\DeleteUser.baml
+C:\Users\Antonio Alvarez\OneDrive\Escritorio\ShopADeal\WpfShopADeal\obj\Debug\PL\EditStores.baml
+C:\Users\Antonio Alvarez\OneDrive\Escritorio\ShopADeal\WpfShopADeal\obj\Debug\PL\EditTeam.baml
+C:\Users\Antonio Alvarez\OneDrive\Escritorio\ShopADeal\WpfShopADeal\obj\Debug\PL\Login.baml
+C:\Users\Antonio Alvarez\OneDrive\Escritorio\ShopADeal\WpfShopADeal\obj\Debug\PL\Register1.baml
+C:\Users\Antonio Alvarez\OneDrive\Escritorio\ShopADeal\WpfShopADeal\obj\Debug\PL\Register2.baml
+C:\Users\Antonio Alvarez\OneDrive\Escritorio\ShopADeal\WpfShopADeal\obj\Debug\PL\Registro3.baml
+C:\Users\Antonio Alvarez\OneDrive\Escritorio\ShopADeal\WpfShopADeal\obj\Debug\PL\EditArticles.g.cs
+C:\Users\Antonio Alvarez\OneDrive\Escritorio\ShopADeal\WpfShopADeal\obj\Debug\PL\EditArticles.baml
+C:\Users\Antonio Alvarez\OneDrive\Escritorio\ShopADeal\WpfShopADeal\obj\Debug\PL\Principal.g.cs
+C:\Users\Antonio Alvarez\OneDrive\Escritorio\ShopADeal\WpfShopADeal\obj\Debug\PL\Principal.baml
+C:\Users\Antonio Alvarez\OneDrive\Escritorio\ShopADeal\WpfShopADeal\obj\Debug\PL\Shop.g.cs
+C:\Users\Antonio Alvarez\OneDrive\Escritorio\ShopADeal\WpfShopADeal\obj\Debug\PL\Shop.baml
+C:\Users\Antonio Alvarez\OneDrive\Escritorio\ShopADeal\WpfShopADeal\obj\Debug\PL\ShoppingCart.g.cs
+C:\Users\Antonio Alvarez\OneDrive\Escritorio\ShopADeal\WpfShopADeal\obj\Debug\PL\ShoppingCart.baml
+C:\Users\Antonio Alvarez\OneDrive\Escritorio\ShopADeal\WpfShopADeal\obj\Debug\PL\PreviousOrders.g.cs
+C:\Users\Antonio Alvarez\OneDrive\Escritorio\ShopADeal\WpfShopADeal\obj\Debug\PL\PreviousOrders.baml
+C:\Users\jeremy_garcia\OneDrive - Dell Technologies\Desktop\ShopADeal\WpfShopADeal\obj\Debug\WpfShopADeal.csproj.AssemblyReference.cache
+C:\Users\jeremy_garcia\OneDrive - Dell Technologies\Desktop\ShopADeal\WpfShopADeal\obj\Debug\WpfShopADeal.csproj.SuggestedBindingRedirects.cache
+C:\Users\jeremy_garcia\OneDrive - Dell Technologies\Desktop\ShopADeal\WpfShopADeal\obj\Debug\PL\Categories.g.cs
+C:\Users\jeremy_garcia\OneDrive - Dell Technologies\Desktop\ShopADeal\WpfShopADeal\obj\Debug\PL\DeleteUser.g.cs
+C:\Users\jeremy_garcia\OneDrive - Dell Technologies\Desktop\ShopADeal\WpfShopADeal\obj\Debug\PL\EditArticles.g.cs
+C:\Users\jeremy_garcia\OneDrive - Dell Technologies\Desktop\ShopADeal\WpfShopADeal\obj\Debug\PL\EditStores.g.cs
+C:\Users\jeremy_garcia\OneDrive - Dell Technologies\Desktop\ShopADeal\WpfShopADeal\obj\Debug\PL\EditTeam.g.cs
+C:\Users\jeremy_garcia\OneDrive - Dell Technologies\Desktop\ShopADeal\WpfShopADeal\obj\Debug\Index.g.cs
+C:\Users\jeremy_garcia\OneDrive - Dell Technologies\Desktop\ShopADeal\WpfShopADeal\obj\Debug\PL\Login.g.cs
+C:\Users\jeremy_garcia\OneDrive - Dell Technologies\Desktop\ShopADeal\WpfShopADeal\obj\Debug\PL\PreviousOrders.g.cs
+C:\Users\jeremy_garcia\OneDrive - Dell Technologies\Desktop\ShopADeal\WpfShopADeal\obj\Debug\PL\Principal.g.cs
+C:\Users\jeremy_garcia\OneDrive - Dell Technologies\Desktop\ShopADeal\WpfShopADeal\obj\Debug\PL\Register1.g.cs
+C:\Users\jeremy_garcia\OneDrive - Dell Technologies\Desktop\ShopADeal\WpfShopADeal\obj\Debug\PL\Register2.g.cs
+C:\Users\jeremy_garcia\OneDrive - Dell Technologies\Desktop\ShopADeal\WpfShopADeal\obj\Debug\PL\Registro3.g.cs
+C:\Users\jeremy_garcia\OneDrive - Dell Technologies\Desktop\ShopADeal\WpfShopADeal\obj\Debug\PL\Shop.g.cs
+C:\Users\jeremy_garcia\OneDrive - Dell Technologies\Desktop\ShopADeal\WpfShopADeal\obj\Debug\PL\ShoppingCart.g.cs
+C:\Users\jeremy_garcia\OneDrive - Dell Technologies\Desktop\ShopADeal\WpfShopADeal\obj\Debug\App.g.cs
+C:\Users\jeremy_garcia\OneDrive - Dell Technologies\Desktop\ShopADeal\WpfShopADeal\obj\Debug\WpfShopADeal_Content.g.cs
+C:\Users\jeremy_garcia\OneDrive - Dell Technologies\Desktop\ShopADeal\WpfShopADeal\obj\Debug\WpfShopADeal_MarkupCompile.cache
+C:\Users\jeremy_garcia\OneDrive - Dell Technologies\Desktop\ShopADeal\WpfShopADeal\obj\Debug\WpfShopADeal_MarkupCompile.lref
+C:\Users\jeremy_garcia\OneDrive - Dell Technologies\Desktop\ShopADeal\WpfShopADeal\obj\Debug\WpfShopADeal.exe
+C:\Users\jeremy_garcia\OneDrive - Dell Technologies\Desktop\ShopADeal\WpfShopADeal\obj\Debug\WpfShopADeal.pdb
+C:\Users\jeremy_garcia\OneDrive - Dell Technologies\Desktop\ShopADeal\WpfShopADeal\bin\Debug\WpfShopADeal.exe.config
+C:\Users\jeremy_garcia\OneDrive - Dell Technologies\Desktop\ShopADeal\WpfShopADeal\bin\Debug\WpfShopADeal.exe
+C:\Users\jeremy_garcia\OneDrive - Dell Technologies\Desktop\ShopADeal\WpfShopADeal\bin\Debug\WpfShopADeal.pdb
+C:\Users\jeremy_garcia\OneDrive - Dell Technologies\Desktop\ShopADeal\WpfShopADeal\bin\Debug\EntityFramework.dll
+C:\Users\jeremy_garcia\OneDrive - Dell Technologies\Desktop\ShopADeal\WpfShopADeal\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\jeremy_garcia\OneDrive - Dell Technologies\Desktop\ShopADeal\WpfShopADeal\bin\Debug\EntityFramework.xml
+C:\Users\jeremy_garcia\OneDrive - Dell Technologies\Desktop\ShopADeal\WpfShopADeal\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\jeremy_garcia\OneDrive - Dell Technologies\Desktop\ShopADeal\WpfShopADeal\obj\Debug\PL\Categories.baml
+C:\Users\jeremy_garcia\OneDrive - Dell Technologies\Desktop\ShopADeal\WpfShopADeal\obj\Debug\PL\DeleteUser.baml
+C:\Users\jeremy_garcia\OneDrive - Dell Technologies\Desktop\ShopADeal\WpfShopADeal\obj\Debug\PL\EditArticles.baml
+C:\Users\jeremy_garcia\OneDrive - Dell Technologies\Desktop\ShopADeal\WpfShopADeal\obj\Debug\PL\EditStores.baml
+C:\Users\jeremy_garcia\OneDrive - Dell Technologies\Desktop\ShopADeal\WpfShopADeal\obj\Debug\PL\EditTeam.baml
+C:\Users\jeremy_garcia\OneDrive - Dell Technologies\Desktop\ShopADeal\WpfShopADeal\obj\Debug\Index.baml
+C:\Users\jeremy_garcia\OneDrive - Dell Technologies\Desktop\ShopADeal\WpfShopADeal\obj\Debug\PL\Login.baml
+C:\Users\jeremy_garcia\OneDrive - Dell Technologies\Desktop\ShopADeal\WpfShopADeal\obj\Debug\PL\PreviousOrders.baml
+C:\Users\jeremy_garcia\OneDrive - Dell Technologies\Desktop\ShopADeal\WpfShopADeal\obj\Debug\PL\Principal.baml
+C:\Users\jeremy_garcia\OneDrive - Dell Technologies\Desktop\ShopADeal\WpfShopADeal\obj\Debug\PL\Register1.baml
+C:\Users\jeremy_garcia\OneDrive - Dell Technologies\Desktop\ShopADeal\WpfShopADeal\obj\Debug\PL\Register2.baml
+C:\Users\jeremy_garcia\OneDrive - Dell Technologies\Desktop\ShopADeal\WpfShopADeal\obj\Debug\PL\Registro3.baml
+C:\Users\jeremy_garcia\OneDrive - Dell Technologies\Desktop\ShopADeal\WpfShopADeal\obj\Debug\PL\Shop.baml
+C:\Users\jeremy_garcia\OneDrive - Dell Technologies\Desktop\ShopADeal\WpfShopADeal\obj\Debug\PL\ShoppingCart.baml
+C:\Users\jeremy_garcia\OneDrive - Dell Technologies\Desktop\ShopADeal\WpfShopADeal\obj\Debug\WpfShopADeal.g.resources
+C:\Users\jeremy_garcia\OneDrive - Dell Technologies\Desktop\ShopADeal\WpfShopADeal\obj\Debug\WpfShopADeal.Properties.Resources.resources
+C:\Users\jeremy_garcia\OneDrive - Dell Technologies\Desktop\ShopADeal\WpfShopADeal\obj\Debug\WpfShopADeal.csproj.GenerateResource.cache
+C:\Users\jeremy_garcia\OneDrive - Dell Technologies\Desktop\ShopADeal\WpfShopADeal\obj\Debug\WpfShopADeal.csproj.CoreCompileInputs.cache
+C:\Users\jeremy_garcia\OneDrive - Dell Technologies\Desktop\ShopADeal\WpfShopADeal\obj\Debug\WpfShopADeal.csproj.CopyComplete
+C:\Users\jeremy_garcia\OneDrive - Dell Technologies\Desktop\ShopADeal\WpfShopADeal\obj\Debug\PL\EditStore.g.cs
+C:\Users\jeremy_garcia\OneDrive - Dell Technologies\Desktop\ShopADeal\WpfShopADeal\obj\Debug\PL\EditUser.g.cs
+C:\Users\jeremy_garcia\OneDrive - Dell Technologies\Desktop\ShopADeal\WpfShopADeal\obj\Debug\PL\FormArticle.g.cs
+C:\Users\jeremy_garcia\OneDrive - Dell Technologies\Desktop\ShopADeal\WpfShopADeal\obj\Debug\PL\FormCategory.g.cs
+C:\Users\jeremy_garcia\OneDrive - Dell Technologies\Desktop\ShopADeal\WpfShopADeal\obj\Debug\PL\EditStore.baml
+C:\Users\jeremy_garcia\OneDrive - Dell Technologies\Desktop\ShopADeal\WpfShopADeal\obj\Debug\PL\EditUser.baml
+C:\Users\jeremy_garcia\OneDrive - Dell Technologies\Desktop\ShopADeal\WpfShopADeal\obj\Debug\PL\FormArticle.baml
+C:\Users\jeremy_garcia\OneDrive - Dell Technologies\Desktop\ShopADeal\WpfShopADeal\obj\Debug\PL\FormCategory.baml
+C:\Users\Antonio Alvarez\OneDrive\Escritorio\ShopADeal\WpfShopADeal\obj\Debug\PL\EditStore.g.cs
+C:\Users\Antonio Alvarez\OneDrive\Escritorio\ShopADeal\WpfShopADeal\obj\Debug\PL\EditUser.g.cs
+C:\Users\Antonio Alvarez\OneDrive\Escritorio\ShopADeal\WpfShopADeal\obj\Debug\PL\FormArticle.g.cs
+C:\Users\Antonio Alvarez\OneDrive\Escritorio\ShopADeal\WpfShopADeal\obj\Debug\PL\FormCategory.g.cs
+C:\Users\Antonio Alvarez\OneDrive\Escritorio\ShopADeal\WpfShopADeal\obj\Debug\PL\EditStore.baml
+C:\Users\Antonio Alvarez\OneDrive\Escritorio\ShopADeal\WpfShopADeal\obj\Debug\PL\EditUser.baml
+C:\Users\Antonio Alvarez\OneDrive\Escritorio\ShopADeal\WpfShopADeal\obj\Debug\PL\FormArticle.baml
+C:\Users\Antonio Alvarez\OneDrive\Escritorio\ShopADeal\WpfShopADeal\obj\Debug\PL\FormCategory.baml
